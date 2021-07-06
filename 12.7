@@ -3,6 +3,6 @@ M = input ('Money = ')
 m1 = float(M)
 S = (list (map (float, list (per_cent.values()))))
 S1 = [i/100*m1 for i in  S]
-print ('deposit = ', S1)
+S2 = (list (map (round, S1)))
+print ('deposit = ', S2)
 print ('Максимальная сумма, которую вы можете заработать — ', max (S1))
-
